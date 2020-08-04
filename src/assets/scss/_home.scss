@@ -3,4 +3,19 @@
     width: '100%';
     color: $text-color;
   }
+  .featued-posts-container {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .home {
+    h1 {
+      margin-block-start: 1.5em;
+      margin-block-end: 1.5em;
+    }
+    .featued-posts-container {
+      flex-direction: column;
+    }
+  }
 }
